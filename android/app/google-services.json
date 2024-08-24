@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126847714527",
+    "project_id": "e-commerce-graphql-a94fa",
+    "storage_bucket": "e-commerce-graphql-a94fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126847714527:android:ed0501bbe8bc41e934d56a",
+        "android_client_info": {
+          "package_name": "com.ghazaly.shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR5LvRjayVNrod7jv-8lTx_72tFbLlccw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
