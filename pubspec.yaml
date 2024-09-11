@@ -28,9 +28,11 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  animate_do: ^3.3.4
   bloc: ^8.1.4
   cloud_firestore: ^5.2.1
   cupertino_icons: ^1.0.6
+  easy_localization: ^3.0.7
   firebase_core: ^3.3.0
   flutter:
     sdk: flutter
@@ -62,6 +64,7 @@ flutter:
     - assets/images/core/
     - assets/app_icon/
     - assets/animations/
+    - assets/translations/
 
 flutter_icons:
   android: true
@@ -95,6 +98,7 @@ flutter_icons:
         - asset: assets/fonts/english/poppins/Poppins-Bold.ttf
           weight: 700
         # - asset: fonts/TrajanPro_Bold.ttf
-  #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true

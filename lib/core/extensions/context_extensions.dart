@@ -10,6 +10,10 @@ extension ContextExt on BuildContext {
   MyAssets get asset {
     return Theme.of(this).extension<MyAssets>()!;
   }
+
+  TextStyle get textStyle {
+    return Theme.of(this).textTheme.displaySmall!;
+  }
   // asset
   // context.asset.bgImage
 
