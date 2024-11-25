@@ -7,30 +7,22 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppTheme {
   static ThemeData getDarkTheme() {
+    print("DARK");
     return ThemeData(
       scaffoldBackgroundColor: ColorsDark.mainColor,
       extensions: <ThemeExtension<dynamic>>[MyColors.dark, MyAssets.dark],
       useMaterial3: true,
-      textTheme: TextTheme(
-        displaySmall: TextStyle(
-          fontSize: 14.sp,
-          color: ColorsDark.white,
-        ),
-      ),
+      fontFamily: "Cairo",
     );
   }
 
   static ThemeData getLightTheme() {
+    print("LIGHT");
     return ThemeData(
       scaffoldBackgroundColor: ColorsLight.mainColor,
       extensions: <ThemeExtension<dynamic>>[MyColors.light, MyAssets.light],
       useMaterial3: true,
-      textTheme: TextTheme(
-        displaySmall: TextStyle(
-          fontSize: 14.sp,
-          color: ColorsDark.black1,
-        ),
-      ),
+      fontFamily: "Cairo",
     );
   }
 }
